@@ -1,3 +1,1 @@
-## WIP
-
-Web development is hard
+## Home
