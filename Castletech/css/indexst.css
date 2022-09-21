@@ -1,0 +1,38 @@
+html,body{
+    background-color: rgb(22, 22, 22);
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .column{
+    background-color: rgb(44, 44, 44);
+    width: 80%;
+    margin-left: 10%;
+    color: azure;
+    height: 100%;
+    font-family:monospace;
+    font-size: 18px;
+    position: absolute;
+  }
+
+  .whyy{
+    text-align: center;
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  p{
+    text-align: center;
+  }
+
+  .holder{
+    position: relative;
+    width: 768px;
+    height: 480px;
+    background-color: burlywood;
+    margin-left: 25%;
+  }
