@@ -1,2 +1,2 @@
 # drakomatic.github.io
-# basically just a dumb webgame im making
+basically just a dumb webgame im making
