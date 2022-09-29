@@ -63,15 +63,15 @@ html,body{
   }
 
   .logo{
-    height: 150px;
+    width: 15%;
     border-radius: 50%;
     float: left;
-    margin-left: calc(20px + 25%);
+    margin-left: calc(20%);
     margin-top: 20px;
   }
 
   .textlogo{
-    height: 150px;
+    width: 45%;
     margin-left: 16px;
     margin-bottom: 20px;
     margin-top: 20px;
