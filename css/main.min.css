@@ -1,1 +1,44 @@
-*{box-sizing:border-box;-webkit-user-select:none;-moz-user-select:none;user-select:none}body{font-family:"AXIS Font Latin W04","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",Arial,"sans-serif"!important;background:#111;overflow:hidden;padding:0;margin:0;height:100vh;height:100dvh;width:100vw;width:100dvw}
+html{
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  color: white;
+  text-align: center;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+body{
+  background-image: url("https://wallpapers.com/images/hd/blue-aesthetic-moon-df8850p673zj275y.jpg");
+  background-color: #000000;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.Div_MainColumn{
+  background-color: #1e1e1e;
+  width: 80%;
+  margin: 0px;
+  padding: 0px;
+  padding-bottom: 8px;
+  margin-left: 10%;
+  display: block;
+  overflow: auto;
+  position: absolute;
+  filter: drop-shadow(0px 0px 2rem black);
+}
+
+img{
+  border-radius: 8px;
+  width: 40%;
+  filter: drop-shadow(0px 0px 0.5rem black);
+}
+
+.TopBar{
+  width: 100%;
+  height: 4rem;
+  display: box;
+  background-color: #2a2a2a;
+  margin: 0%;
+  padding: 0%;
+}
