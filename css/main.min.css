@@ -43,3 +43,11 @@ img{
   margin: 0%;
   padding: 0%;
 }
+
+p{
+  width: 60%;
+  margin-left: 20%;
+  font-size: 18px;
+  font-family: inherit;
+  text-align: center;
+}
