@@ -52,13 +52,9 @@ p{
   text-align: center;
 }
 
-button.inactiveButton {
-    float: left;
+button {
     display: block;
     border-style: none;
-    background-color: #2f2f2f;
-    color: white;
-    height: inherit;
     text-align: center;
     font-size: 1.3em;
     font-family: "Lucida Console", "Courier New", monospace;
@@ -68,6 +64,14 @@ button.inactiveButton {
     padding-right: 10pt;
     padding-left: 10pt;
     transition: all 0.2s;
+    cursor: pointer;
+}
+
+button.inactiveButton {
+    float: left;
+    background-color: #2f2f2f;
+    color: white;
+    height: inherit;
 }
 
 button.inactiveButton:Hover {
@@ -79,20 +83,9 @@ button.inactiveButton:Hover {
 
 button.ActiveButton {
     float: left;
-    display: block;
-    border-style: none;
     background-color: #923ec3;
     color: white;
     height: inherit;
-    text-align: center;
-    font-size: 1.3em;
-    width: fit-content;
-    padding-right: 10pt;
-    padding-left: 10pt;
-    font-family: "Lucida Console", "Courier New", monospace;
-    margin-left: 1px;
-    margin-right: 1px;
-    transition: all 0.2s;
 }
 
 button.ActiveButton:Hover {
