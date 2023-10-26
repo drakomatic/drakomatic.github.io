@@ -69,6 +69,13 @@ button.inactiveButton {
     padding-left: 10pt;
 }
 
+button.inactiveButton:Hover {
+    color: black;
+    background-color: white;
+    padding-right: 15pt;
+    padding-left: 15pt;
+}
+
 button.ActiveButton {
     float: left;
     display: block;
@@ -84,4 +91,10 @@ button.ActiveButton {
     font-family: "Lucida Console", "Courier New", monospace;
     margin-left: 1px;
     margin-right: 1px;
+}
+
+button.ActiveButton:Hover {
+    background-color: #b34cf0;
+    padding-right: 15pt;
+    padding-left: 15pt;
 }
