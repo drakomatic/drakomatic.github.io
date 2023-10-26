@@ -53,43 +53,58 @@ p{
 }
 
 button {
-    display: block;
-    border-style: none;
-    text-align: center;
-    font-size: 1.3em;
-    font-family: "Lucida Console", "Courier New", monospace;
-    margin-left: 1px;
-    margin-right: 1px;
-    width: fit-content;
-    padding-right: 10pt;
-    padding-left: 10pt;
-    transition: all 0.2s;
-    cursor: pointer;
+  display: block;
+  border-style: none;
+  text-align: center;
+  font-size: 1.3em;
+  font-family: "Lucida Console", "Courier New", monospace;
+  margin-left: 1px;
+  margin-right: 1px;
+  width: fit-content;
+  padding-right: 10pt;
+  padding-left: 10pt;
+  transition: all 0.2s;
+  cursor: pointer;
 }
 
 button.inactiveButton {
-    float: left;
-    background-color: #2f2f2f;
-    color: white;
-    height: inherit;
+  float: left;
+  background-color: #2f2f2f;
+  color: white;
+  height: inherit;
 }
 
 button.inactiveButton:Hover {
-    color: black;
-    background-color: white;
-    padding-right: 15pt;
-    padding-left: 15pt;
+  color: black;
+  background-color: white;
+  padding-right: 15pt;
+  padding-left: 15pt;
 }
 
 button.ActiveButton {
-    float: left;
-    background-color: #923ec3;
-    color: white;
-    height: inherit;
+  float: left;
+  background-color: #923ec3;
+  color: white;
+  height: inherit;
 }
 
 button.ActiveButton:Hover {
-    background-color: #b34cf0;
-    padding-right: 15pt;
-    padding-left: 15pt;
+  background-color: #b34cf0;
+  padding-right: 15pt;
+  padding-left: 15pt;
+}
+
+a{
+  height: 100%;
+  width: fit-content;
+}
+
+.ContactsBar{
+  display: block;
+  width: 70%;
+  margin-left: 15%;
+  height: fit-content;
+  background-color: #2a2a2a;
+  border-radius: 8px;
+  padding: 16px;
 }
