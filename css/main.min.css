@@ -67,6 +67,7 @@ button.inactiveButton {
     width: fit-content;
     padding-right: 10pt;
     padding-left: 10pt;
+    transition: all 0.2s;
 }
 
 button.inactiveButton:Hover {
@@ -91,6 +92,7 @@ button.ActiveButton {
     font-family: "Lucida Console", "Courier New", monospace;
     margin-left: 1px;
     margin-right: 1px;
+    transition: all 0.2s;
 }
 
 button.ActiveButton:Hover {
