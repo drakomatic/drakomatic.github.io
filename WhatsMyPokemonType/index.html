@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>What's my pokemon type?</title>
+        <link rel="stylesheet" href="index.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div class="CenterMyEverything">
+            <h1 style="margin-top: 0px; text-align: center;">What's my pokemon type?</h1>
+            <p class="NameboxLabel">Your name:</p>
+            <textarea id="Namebox" class="Namebox" rows="1" cols="30" onkeyup="UpdateBox()" autocomplete="off" autocorrect="off" maxlength="30"></textarea>
+            <div id="TypeImages" class="TypeImages">
+
+            </div>
+            <p class="NameboxLabel">
+                How this works:<br>
+                <br>
+                When you type into the textbox above, the computer turns your text into a number.<br>
+                this number is then modulated by the number of types (18) to generate two random types.<br>
+                <br>
+                If both types are the same it counts as a monotype, but if they're different it displays both.<br>
+                <br>
+                The use of hashes instead of pure RNG is to assure that the same text always results in the same type.<br>
+            </p>
+        </div>
+    </body>
+</html>

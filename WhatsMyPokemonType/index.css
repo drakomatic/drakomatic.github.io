@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+html{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+
+    background-color: #004a95;
+    color: #fff;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: inherit;
+    color: inherit;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.Namebox {
+    resize: none;
+    margin: auto;
+    display: block;
+}
+
+.Typeimg {
+    width: 64px;
+    margin-left: 4px;
+
+    image-rendering: optimizeSpeed;             /* STOP SMOOTHING, GIVE ME SPEED  */
+    image-rendering: -moz-crisp-edges;          /* Firefox                        */
+    image-rendering: -o-crisp-edges;            /* Opera                          */
+    image-rendering: -webkit-optimize-contrast; /* Chrome (and eventually Safari) */
+    image-rendering: pixelated;                 /* Universal support since 2021   */
+    image-rendering: optimize-contrast;         /* CSS3 Proposed                  */
+    -ms-interpolation-mode: nearest-neighbor;   /* IE8+                           */
+}
+
+/* this totally isn't confusing with Typeimg */
+.TypeImages{
+    display: block;
+    margin: auto;
+    margin-top: 8px;
+    width: fit-content;
+}
+
+.CenterMyEverything{
+    display: block;
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: #00003380;
+    width: 75%;
+    height: 100%;
+    padding-top: 1rem;
+}
+
+.NameboxLabel {
+    text-align: center;
+}
