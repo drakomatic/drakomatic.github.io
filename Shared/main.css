@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:wght@400;700&family=Quicksand:wght@300..700&display=swap');
+
+html{
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 16;
+    font-style: normal;
+    color: #fffff8;
+    background-color: #02020B;
+    text-align: center;
+}
+
+img{
+    display: block;
+    margin: auto;
+    border-radius: .5rem;
+    width: 100%;
+    max-width: fit-content;
+}
+
+.main-content{
+    display: block;
+    margin: auto;
+    margin-top: 3rem;
+    width: 90%;
+    max-width: 960px;
+}
+
+.nav-bar{
+    width: 100%;
+    padding: 0px;
+    background-color: #171623;
+    position: fixed;
+    height: 2.5rem;
+    top: 0px;
+    left: 0px;
+}
+
+.nav-button{
+    border: none;
+    background-color: inherit;
+    color: #fffff8;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 30;
+    font-style: normal;
+    text-align: center;
+    cursor: pointer;
+    height: 100%;
+    border-left: solid 1px #1e1e3a;
+    border-right: solid 1px #1e1e3a;
+    padding-left: 8px;
+    padding-right: 8px;
+    transition: all .2s;
+}
+
+.nav-button:hover{
+    padding-left: 12px;
+    padding-right: 12px;
+    background-color: #fffff8;
+    color: #02020B;
+}
+
+.project-img{
+    height: 100%;
+    object-fit: cover;
+}
+
+.div-for-project-image{
+    padding: 8px;
+    height: calc(180px - 16px);
+    float: left;
+}
+
+.project-div{
+    border-top: solid 1px #1e1e3a;
+    text-align: left;
+    width: 100%;
+    color: #fffff8;
+    height: 180px;
+    transition: all 0.2s;
+}
+
+.project-link{
+    height: fit-content;
+}
+
+.project-div:hover{
+    background-color: #fffff8;
+    color: #02020B;
+}
