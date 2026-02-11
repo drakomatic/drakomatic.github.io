@@ -44,12 +44,13 @@ img{
 
     background-color: var(--background-color-transparent);
 
-    min-height: calc(100vh - (var(--navbar-height) + var(--navbar-margin) * 3));
+    min-height: calc(100vh - (var(--navbar-height) + var(--navbar-margin) * 3) - 32px);
 
     border-left: solid 1px var(--light-outline);
     border-right: solid 1px var(--light-outline);
 
     padding-top: var(--navbar-margin);
+    padding-bottom: 32px;
 }
 
 .nav-bar{

@@ -9,16 +9,16 @@ class project{
 
 var projects = [
     new project(
-        "What's my pokemon type?",
-        "A little website I made that turns your name (or any text) into a pokemon type!",
-        "./whatsmypokemontype/",
-        "./whatsmypokemontype/PreviewLogo.png"
-    ),
-    new project(
         "LyntCleaner",
         "A plugin for now defunct social media website Lynter, meant to make it a bit easier on the eyes. It's source code is now public to be reused if someone rehosts or remakes the website.",
         "https://github.com/drakomatic/LyntCleaner/tree/main/Shared",
         "/Projects/external/LyntCleanerBanner.png"
+    ),
+    new project(
+        "What's my pokemon type?",
+        "A little website I made that turns your name (or any text) into a pokemon type!",
+        "./whatsmypokemontype/",
+        "./whatsmypokemontype/PreviewLogo.png"
     )
 ]
 
