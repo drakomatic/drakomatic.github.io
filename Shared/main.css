@@ -144,6 +144,9 @@ img{
     background: var(--background-color);
     color: var(--text-color);
     transition: 0.2s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px; /* space between icon and text */
 }
 
 .social-btn:hover {
@@ -156,4 +159,5 @@ img{
     float: left;
     height: 20px;
     margin-right: 8px;
+    color: inherit;
 }
