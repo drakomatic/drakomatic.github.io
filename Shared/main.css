@@ -59,7 +59,9 @@ img{
     background-color: var(--background-color);
     position: fixed;
     height: var(--navbar-height);
-    top: var(--navbar-margin);
+    top: 0px;
+
+    padding-top: var(--navbar-margin);
 
     display: flex;
     gap: 8px;
