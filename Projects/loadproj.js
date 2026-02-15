@@ -9,6 +9,12 @@ class project{
 
 var projects = [
     new project(
+        "Fetchmon",
+        "A discord bot written in rust themed after Renamon from hit series Digimon by Bandai Namco.",
+        "https://github.com/drakomatic/Fetchmon",
+        "/Projects/external/FetchmonBanner.png"
+    ),
+    new project(
         "LyntCleaner",
         "A plugin for now defunct social media website Lynter, meant to make it a bit easier on the eyes. It's source code is now public to be reused if someone rehosts or remakes the website.",
         "https://github.com/drakomatic/LyntCleaner/tree/main/Shared",
