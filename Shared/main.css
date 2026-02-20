@@ -22,7 +22,10 @@ html{
 
 body{
     margin: 0px;
-    background: url("/content/NewBG.png");
+
+    background-image: url("/content/NewBG.png");
+    background-size: cover;
+    background-position: top center;
 }
 
 img{
