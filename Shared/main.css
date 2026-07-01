@@ -120,7 +120,8 @@ img {
 
 .project-img {
     height: 100%;
-    object-fit: contain;
+    object-fit: cover;
+    border-radius: 0px 12px 0px 6px;
     max-width: 100%;
 }
 
@@ -133,11 +134,13 @@ img {
 }
 
 .project-div {
-    border-top: solid 1px var(--light-outline);
+    border: solid 1px var(--light-outline);
     text-align: left;
     width: 100%;
     color: var(--text-color);
     height: 180px;
+    border-radius: 0px 12px 0px 12px;
+    margin-bottom: 4px;
     transition: all 0.2s;
 }
 
