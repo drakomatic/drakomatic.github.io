@@ -1,15 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-:root{
+:root {
     --background-color: #0c0714;
     --background-color-transparent: #0c0714de;
-    --light-outline: #302736;
+    --light-outline: #54455f;
     --text-color: #fffff8;
     --navbar-height: 64px;
     --navbar-margin: 8px;
 }
 
-html{
+h1, h2, h3, h4, h5, h6 {
+    font-family: monospace;
+}
+
+html {
     font-family: "Roboto", sans-serif;
     font-optical-sizing: auto;
     font-weight: 350;
@@ -17,18 +21,32 @@ html{
     font-size: 18px;
     color: var(--text-color);
     background-color: var(--background-color);
-    text-align: center;
+    text-align: left;
 }
 
-body{
+body {
     margin: 0px;
+    overflow: hidden;
 
     background-image: url("/content/NewBG.png");
     background-size: cover;
     background-position: top center;
 }
 
-img{
+body::after {
+    content: "";
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    z-index: 1;
+    background-image: repeating-linear-gradient(to bottom,
+            rgba(253, 252, 245, 0.035) 0px,
+            rgba(253, 252, 245, 0.035) 1px,
+            transparent 1px,
+            transparent 3px);
+}
+
+img {
     display: block;
     margin: auto;
     /*border-radius: .5rem;*/
@@ -36,49 +54,49 @@ img{
     max-width: fit-content;
 }
 
-.main-content{
+.main-content {
     display: block;
     margin: auto;
-    margin-top: calc(var(--navbar-height) + var(--navbar-margin) * 2);
     width: 90%;
     max-width: 960px;
-    padding-left: 16px;
-    padding-right: 16px;
+    padding: 2em;
 
     background-color: var(--background-color-transparent);
 
-    min-height: calc(100vh - (var(--navbar-height) + var(--navbar-margin) * 3) - 32px);
+    height: calc(100vh - (var(--navbar-height) + var(--navbar-margin) * 3) - 32px);
 
     border-left: solid 1px var(--light-outline);
     border-right: solid 1px var(--light-outline);
 
     padding-top: var(--navbar-margin);
-    padding-bottom: 32px;
+    padding-bottom: 3em;
+
+    overflow: scroll;
 }
 
-.nav-bar{
+.nav-bar {
     width: 100%;
     padding: 0px;
     background-color: var(--background-color);
-    position: fixed;
+    position: sticky;
     height: var(--navbar-height);
     top: 0px;
 
-    padding-top: var(--navbar-margin);
+    padding: var(--navbar-margin) 16px;
 
     display: flex;
     gap: 8px;
 
+    margin: auto;
     justify-content: center;
 
-    padding-bottom: var(--navbar-margin);
-    border-bottom: solid 1px var(--light-outline);
+    border-bottom: 1px solid var(--light-outline);
 }
 
-.nav-button{
+.nav-button {
     background-color: inherit;
     color: var(--text-color);
-    font-family: "Roboto", sans-serif;
+    font-family: monospace;
     font-optical-sizing: auto;
     font-weight: 600;
     font-size: 24px;
@@ -90,22 +108,23 @@ img{
     padding-left: 16px;
     padding-right: 16px;
     transition: all .2s;
+    border-radius: 0px 12px 0px 12px;
 }
 
-.nav-button:hover{
+.nav-button:hover {
     padding-left: 24px;
     padding-right: 24px;
     background-color: var(--text-color);
     color: var(--background-color);
 }
 
-.project-img{
+.project-img {
     height: 100%;
     object-fit: contain;
     max-width: 100%;
 }
 
-.div-for-project-image{
+.div-for-project-image {
     padding: 8px;
     padding-right: 16px;
     height: calc(180px - 16px);
@@ -113,7 +132,7 @@ img{
     float: left;
 }
 
-.project-div{
+.project-div {
     border-top: solid 1px var(--light-outline);
     text-align: left;
     width: 100%;
@@ -122,12 +141,12 @@ img{
     transition: all 0.2s;
 }
 
-.project-link{
+.project-link {
     height: fit-content;
     text-decoration: none;
 }
 
-.project-div:hover{
+.project-div:hover {
     background-color: var(--text-color);
     color: var(--background-color);
 }
@@ -154,7 +173,10 @@ img{
     transition: 0.2s ease;
     display: inline-flex;
     align-items: center;
-    gap: 8px; /* space between icon and text */
+    gap: 8px;
+
+    border-radius: 0px 12px 0px 12px;
+    /* space between icon and text */
 }
 
 .social-btn:hover {
@@ -163,9 +185,24 @@ img{
     padding: 16px 24px;
 }
 
-.social-icn{
+.social-icn {
     float: left;
     height: 20px;
     margin-right: 8px;
     color: inherit;
+}
+
+.contact-links {
+    display: flex;
+    width: fit-content;
+    margin: auto;
+    gap: 4px;
+}
+
+.contact-links a {
+    transition: 0.1s ease;
+}
+
+.contact-links a:hover {
+    padding-top: 4px;
 }
