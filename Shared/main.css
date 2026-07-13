@@ -48,8 +48,7 @@ body::after {
 
 img {
     display: block;
-    margin: auto;
-    /*border-radius: .5rem;*/
+    border-radius: 0px 12px 0px 12px;
     width: 100%;
     max-width: fit-content;
 }
@@ -167,6 +166,28 @@ img {
     flex-wrap: wrap;
 }
 
+button {
+    text-decoration: none;
+    padding: 8px 8px;
+    border: 1px solid var(--light-outline);
+    background: var(--background-color);
+    color: var(--text-color);
+    transition: 0.2s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+
+    cursor: pointer;
+
+    border-radius: 0px 12px 0px 12px;
+}
+
+button:hover{
+    background: var(--text-color);
+    color: var(--background-color);
+    padding: 8px 12px;
+}
+
 .social-btn {
     text-decoration: none;
     padding: 16px 16px;
@@ -208,4 +229,13 @@ img {
 
 .contact-links a:hover {
     padding-top: 4px;
+}
+
+.danbooru-sel {
+    max-height: 32em;
+    max-width: 960px;
+    object-fit: contain;
+    width: auto;
+    height: auto;
+    margin: 0px;
 }

@@ -9,6 +9,12 @@ class project{
 
 var projects = [
     new project(
+        "Featured Images",
+        "A small additional page that randomly selects a \"featured\" image from safebooru.\n\nYou could also consider it a \"randomly curated gallery\".",
+        "/Projects/image-selector",
+        ""
+    ),
+    new project(
         "Fetchmon",
         "A discord bot written in rust themed after Renamon from hit series Digimon by Bandai Namco.",
         "https://github.com/drakomatic/Fetchmon",

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>drakomatic.net</title>
+    <link rel="stylesheet" href="/Shared/main.css">
+
+    <meta name="description" content="Personal portfolio of drakomatic.">
+
+    <!-- Open Graph (Discord, Facebook, etc) -->
+    <meta property="og:title" content="drakomatic.net">
+    <meta property="og:description" content="Games, experiments, and open-source creations by drakomatic.">
+    <meta property="og:url" content="https://www.drakomatic.net">
+    <meta property="og:type" content="website">
+
+    <script src="/Projects/image-selector/image-selector.js"></script>
+</head>
+
+<body onload="setRandomImages()">
+    <div class="nav-bar">
+        <a href="/"><button class="nav-button">Home</button></a>
+        <a href="/Projects"><button class="nav-button">Projects</button></a>
+        <a href="/Contact"><button class="nav-button">Contact</button></a>
+    </div>
+    <div class="main-content">
+        <h2>Featured* artwork from <a href = "https://safebooru.donmai.us" style="text-decoration: none; color: cyan;">Danbooru</a></h2>
+        <h3 id="art-credit">Art by: [artist name]</h3>
+        <img class="danbooru-sel" src="">
+        <button onclick="setRandomImages()" style="margin-top: 1em; margin-right: 1em;">refresh</button>
+        <sub>*Featured images are randomly selected based on danbooru tags.</sub>
+    </div>
+</body>
+
+</html>
